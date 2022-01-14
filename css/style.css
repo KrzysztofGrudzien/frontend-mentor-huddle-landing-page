@@ -1,0 +1,131 @@
+:root {
+    /* ------- COLORS ------- */
+    --color-primary: hsl(257, 40%, 49%);
+    --color-secondary: hsl(300, 69%, 71%);
+    --color-text: hsl(0, 0%, 100%);
+
+    /* ------- RADIUS ------- */
+    --radius-20: 20px;
+    --radius-full: 100px;
+
+    /* ------- SHADOWS------- */
+    --shadow: 1px 3px 5px rgba(0, 0, 0, 0.269022);
+}
+
+/* ------- BASIC ------- */
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-family: 'Poppins', 'Arial', 'Roboto', 'Helvetica', sans-serif;
+}
+
+body {
+    align-items: center;
+    background: var(--color-primary) url('../images/bg-mobile.svg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    color: var(--color-text);
+    display: flex;
+    flex-direction: column;
+    font-size: 1.6rem;
+    font-family: 'Open Sans', 'Arial', 'Roboto', 'Helvetica', sans-serif;
+    min-height: 100vh;
+    object-fit: cover;
+    padding: 3.5rem;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ------- HEADER ------- */
+
+.header__logo {
+    margin-bottom: 5rem;
+    width: 120px;
+}
+
+/* ------- SECTION ABOUT ------- */
+
+.about__title {
+    font-weight: 600;
+    line-height: 1.55;
+    padding-bottom: 1.4rem;
+}
+
+.about__img {
+    margin-bottom: 4.8rem;
+}
+
+.about__description {
+    line-height: 1.6;
+    text-align: center;
+}
+
+.about__link {
+    background-color: var(--color-text);
+    border-radius: var(--radius-20);
+    box-shadow: var(--shadow);
+    color: var(--color-primary);
+    display: flex;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    margin-top: 2.3rem;
+    margin-bottom: 6rem;
+    padding: 1.3rem 7rem;
+    justify-content: center;
+    width: 70%;
+}
+
+/* ------- FOOTER ------- */
+
+.footer__links {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__link:link {
+    align-items: center;
+    border: solid 1px var(--color-text);
+    border-radius: var(--radius-full);
+    color: var(--color-text);
+    display: flex;
+    height: 2.8rem;
+    font-size: 1.2rem;
+    justify-content: center;
+    line-height: 2.8rem;
+    margin: 0 0.5rem;
+    width: 2.8rem;
+}
