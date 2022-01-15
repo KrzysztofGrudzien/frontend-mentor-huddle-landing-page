@@ -52,8 +52,62 @@ In this project, I tried to repeat my knowledge about pure HTML and CSS. As an a
 Few lines of code from the project:
 
 ```html
+  <div class="container">
+    <header class="header">
+        <h1 class="header__title"><img src="./images/logo.svg" alt="" class="header__logo" /></h1>
+    </header>
+    <main class="main">
+        <section class="about" id="about">
+            <div class="about__img-wrapper">
+                <img src="./images/illustration-mockups.svg" alt="" class="about__img" />
+            </div>
+            <div class="about__content">
+                <h2 class="about__title">Build The Community Your Fans Will Love</h2>
+                <p class="about__description">
+                    Huddle re-imagines the way we build communities. You have a voice, but so does your
+                    audience. Create connections with your users as you engage in genuine discussion.
+                </p>
+                <a href="#" class="about__link">Register</a>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__links">
+            <a href="#" class="footer__link"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="footer__link"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="footer__link"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+</div>
 ```
 ```css
+      .header__logo {
+        width: 200px;
+    }
+
+    .footer__links {
+        justify-content: flex-end;
+    }
+
+    .footer__link:link,
+    .footer__link:active,
+    .footer__link:visited {
+        height: 4rem;
+        font-size: 1.6rem;
+        width: 4rem;
+    }
+
+    .footer__link:link,
+    .footer__link:active,
+    .footer__link:visited {
+        transition: border 0.3s ease, color 0.3s ease, filter 0.3s ease;
+    }
+
+    .footer__link:hover {
+        border: 1px solid var(--color-secondary);
+        color: var(--color-secondary);
+        filter: saturate(3);
+    }
 
 ```
 
