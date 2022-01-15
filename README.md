@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/KrzysztofGrudzien/frontend-mentor-huddle-landing-page)
-- Live Site URL: [Add live site URL here](https://krzysztofgrudzien.github.io/frontend-mentor-huddle-landing-page/)
+- Solution URL: [https://github.com/KrzysztofGrudzien/frontend-mentor-huddle-landing-page](https://github.com/KrzysztofGrudzien/frontend-mentor-huddle-landing-page)
+- Live Site URL: [https://krzysztofgrudzien.github.io/frontend-mentor-huddle-landing-page/](https://krzysztofgrudzien.github.io/frontend-mentor-huddle-landing-page/)
 
 ## My process
 
